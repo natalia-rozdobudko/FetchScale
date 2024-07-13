@@ -13,7 +13,7 @@ Feature: Find the best algorithm to find the fake gold bar
     And user clicks on "Weigh" button
     Then user should see which side weighs more or less or the same
     And user now selects number corresponding to the fake gold
-    And user sees an alert "Yay! You found it!"
+    And user sees an alert "Yay! You find it!"
 
 
 

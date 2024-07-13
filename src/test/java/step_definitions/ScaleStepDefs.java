@@ -82,7 +82,7 @@ public class ScaleStepDefs {
 
         switch (gamePage.resultButton.getText()) {
 
-            case ">":
+            case "<":
                 temp = new ArrayList<>();
                 for (WebElement element : gamePage.getThreeBoxesAsList("left")) {
                     numberAsString = element.getAttribute("value");
@@ -92,7 +92,7 @@ public class ScaleStepDefs {
 
                 break;
 
-            case "<":
+            case ">":
                 temp = new ArrayList<>();
                 for (WebElement element : gamePage.getThreeBoxesAsList("right")) {
                     numberAsString = element.getAttribute("value");
